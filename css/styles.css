@@ -1,0 +1,49 @@
+@import url('./_fonts.css');
+
+.container {
+  max-width: 1200px;
+  min-width: 630px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 400px;
+  background: url('../images/header-bg.jpg') center / cover no-repeat;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+  border-bottom: 7px solid rgb(221, 26, 26);
+}
+
+.lable {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  max-width: 40%;
+}
+
+.lable__title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-family: 'Ruslan Display';
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.lable__description {
+  font-family: 'Neucha';
+  color: rgb(255, 70, 70);
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 2px;
+  line-height: 1.4;
+}
+
+.content {
+  border-left: 3px solid #2c2a2e;
+  border-right: 3px solid #2c2a2e;
+  border-bottom: 3px solid #2c2a2e;
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+  padding: 20px;
+}
