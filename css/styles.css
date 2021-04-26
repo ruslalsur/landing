@@ -19,7 +19,7 @@
   position: absolute;
   top: 30%;
   left: 10%;
-  max-width: 40%;
+  max-width: 35%;
 }
 
 .lable__title {
@@ -37,6 +37,10 @@
   font-size: 1.15rem;
   letter-spacing: 2px;
   line-height: 1.4;
+}
+
+.lable__description_accent {
+  color: rgb(250, 210, 32);
 }
 
 .content {
