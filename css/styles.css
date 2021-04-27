@@ -2,7 +2,6 @@
 
 .container {
   max-width: 1200px;
-  min-width: 630px;
   margin: 0 auto;
 }
 
@@ -50,4 +49,22 @@
   border-end-start-radius: 10px;
   border-end-end-radius: 10px;
   padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .lable__title {
+    font-size: 2rem;
+    font-family: 'Ruslan Display';
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+  }
+
+  .lable__description {
+    font-family: 'Neucha';
+    color: rgb(255, 70, 70);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
 }
