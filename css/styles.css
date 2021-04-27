@@ -11,7 +11,6 @@
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   position: relative;
-  border-bottom: 7px solid rgb(221, 26, 26);
 }
 
 .lable {
@@ -43,12 +42,20 @@
 }
 
 .content {
-  border-left: 3px solid #2c2a2e;
-  border-right: 3px solid #2c2a2e;
-  border-bottom: 3px solid #2c2a2e;
+  border: 5px solid #2c2a2e;
   border-end-start-radius: 10px;
   border-end-end-radius: 10px;
   padding: 20px;
+}
+
+.apps {
+}
+
+.app__link {
+}
+
+.app__img {
+  max-width: 30%;
 }
 
 @media (max-width: 600px) {
