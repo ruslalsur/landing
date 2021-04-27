@@ -52,7 +52,6 @@
 
 .app__action {
   display: grid;
-  /* grid-column-gap: 7px; */
   grid-template-columns: 1fr 1fr 100%;
   grid-area: action;
   justify-content: start;
@@ -65,7 +64,6 @@
   white-space: nowrap;
   width: fit-content;
   color: #ffffff;
-  /* border-radius: 4px; */
   padding: 7px 13px 5px 13px;
   font-family: 'Ruslan Display';
   font-size: 0.8rem;
@@ -73,7 +71,6 @@
   cursor: pointer;
   text-decoration: none;
   transition: background-color 0.3s ease;
-  /* box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2); */
   box-shadow: 0px 0px 5px 2px rgba(34, 60, 80, 0.2);
 }
 
