@@ -1,0 +1,53 @@
+.header {
+  height: 400px;
+  background: url('../images/header-bg.jpg') center / cover no-repeat;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+}
+
+.lable {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  max-width: 35%;
+}
+
+.lable__title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-family: 'Ruslan Display';
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.lable__description {
+  font-family: 'Neucha';
+  color: rgb(255, 70, 70);
+  font-weight: 700;
+  font-size: 1.15rem;
+  letter-spacing: 2px;
+  line-height: 1.4;
+}
+
+.lable__description_accent {
+  color: rgb(250, 210, 32);
+}
+
+@media (max-width: 600px) {
+  .lable__title {
+    font-size: 2rem;
+    font-family: 'Ruslan Display';
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+  }
+
+  .lable__description {
+    font-family: 'Neucha';
+    color: rgb(255, 70, 70);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+}
