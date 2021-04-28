@@ -29,14 +29,14 @@
   grid-area: title;
   padding-top: 2px;
   font-family: 'Ruslan Display';
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   letter-spacing: 0.5px;
   color: #5f6e8f;
 }
 
 .app__title_accent {
   color: #768195;
-  font-size: 1rem;
+  font-size: 0.9rem;
   letter-spacing: 0px;
 }
 
@@ -45,7 +45,7 @@
   font-family: 'Neucha';
   color: #515c74;
   font-weight: 500;
-  font-size: 1.05rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   line-height: 1.2;
 }
@@ -64,9 +64,9 @@
   white-space: nowrap;
   width: fit-content;
   color: #ffffff;
-  padding: 7px 13px 5px 13px;
+  padding: 5px 7px 3px 7px;
   font-family: 'Ruslan Display';
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   letter-spacing: 0.5px;
   cursor: pointer;
   text-decoration: none;
