@@ -105,3 +105,4 @@ dist
 client/.eslintcache
 .vscode
 storage/
+build/
