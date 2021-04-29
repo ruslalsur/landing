@@ -1,6 +1,7 @@
 .header {
-  height: 320px;
-  background: url('../assets/images/header-bg.jpg') center / cover no-repeat;
+  height: 350px;
+  background: url('../assets/images/header-bg.jpg') bottom right / cover
+    no-repeat;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   position: relative;
@@ -40,7 +41,7 @@
   }
 
   .lable {
-    max-width: 50%;
+    max-width: 40%;
   }
 
   .lable__title {
