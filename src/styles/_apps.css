@@ -45,7 +45,7 @@
   font-family: 'Neucha';
   color: #444e62;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 0.95rem;
   letter-spacing: 2px;
   line-height: 1.2;
 }
@@ -117,9 +117,15 @@
 
   .app__title {
     margin-left: 3px;
+    font-size: 1.05rem;
+  }
+
+  .app__title_accent {
+    font-size: 0.75rem;
   }
 
   .app__desc {
     margin: 0 7px;
+    font-size: 0.85rem;
   }
 }

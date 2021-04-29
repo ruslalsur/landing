@@ -1,6 +1,6 @@
 .header {
-  height: 400px;
-  background: url('../images/header-bg.jpg') center / cover no-repeat;
+  height: 320px;
+  background: url('../assets/images/header-bg.jpg') center / cover no-repeat;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   position: relative;
@@ -10,7 +10,7 @@
   position: absolute;
   top: 30%;
   left: 10%;
-  max-width: 35%;
+  max-width: 39%;
 }
 
 .lable__title {
@@ -35,6 +35,14 @@
 }
 
 @media (max-width: 600px) {
+  .header {
+    height: 200px;
+  }
+
+  .lable {
+    max-width: 50%;
+  }
+
   .lable__title {
     font-size: 1.4rem;
     font-family: 'Ruslan Display';

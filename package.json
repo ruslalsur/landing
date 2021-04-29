@@ -1,0 +1,36 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "Landing of sites",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslalsur/landing.git"
+  },
+  "keywords": [],
+  "author": "Sukhorukov RG <suhrugen@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruslalsur/landing/issues"
+  },
+  "homepage": "https://github.com/ruslalsur/landing#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "*",
+    "copy-webpack-plugin": "^8.1.1",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.36.0",
+    "webpack-cli": "^4.6.0"
+  }
+}

@@ -1,0 +1,44 @@
+/* ruslan-display-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Ruslan Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/ruslan-display-v13-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../assets/fonts/ruslan-display-v13-latin_cyrillic-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */
+      url('../assets/fonts/ruslan-display-v13-latin_cyrillic-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../assets/fonts/ruslan-display-v13-latin_cyrillic-regular.woff')
+      format('woff'),
+    /* Modern Browsers */
+      url('../assets/fonts/ruslan-display-v13-latin_cyrillic-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../assets/fonts/ruslan-display-v13-latin_cyrillic-regular.svg#RuslanDisplay')
+      format('svg'); /* Legacy iOS */
+}
+
+/* neucha-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/neucha-v12-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('../assets/fonts/neucha-v12-latin_cyrillic-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../assets/fonts/neucha-v12-latin_cyrillic-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */
+      url('../assets/fonts/neucha-v12-latin_cyrillic-regular.woff')
+      format('woff'),
+    /* Modern Browsers */
+      url('../assets/fonts/neucha-v12-latin_cyrillic-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../assets/fonts/neucha-v12-latin_cyrillic-regular.svg#Neucha')
+      format('svg'); /* Legacy iOS */
+}
