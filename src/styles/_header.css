@@ -1,6 +1,6 @@
 .header {
   height: 350px;
-  background: url('../assets/images/header-bg.jpg') bottom right / cover
+  background: url('../assets/images/header-bg.webp') bottom right / cover
     no-repeat;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
