@@ -15,7 +15,7 @@ module.exports = {
   mode: 'development',
 
   entry: {
-    main: './index.js',
+    main: ['@babel/polyfill', './index.js'],
   },
 
   output: {
@@ -52,8 +52,15 @@ module.exports = {
         ],
       },
       {
-        test: /\.json$/i,
-        type: 'asset/resource',
+        test: /\.m?jsx?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env', '@babel/preset-react'],
+            plugins: ['@babel/plugin-proposal-class-properties'],
+          },
+        },
       },
     ],
   },
@@ -74,10 +81,6 @@ module.exports = {
         {
           from: path.join(__dirname, 'src', 'assets', 'images'),
           to: path.join(__dirname, 'build', 'images'),
-        },
-        {
-          from: path.join(__dirname, 'src', 'assets', 'json'),
-          to: path.join(__dirname, 'build', 'json'),
         },
       ],
     }),

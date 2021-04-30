@@ -21,6 +21,12 @@
   },
   "homepage": "https://github.com/ruslalsur/landing#readme",
   "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "*",
     "copy-webpack-plugin": "^8.1.1",
     "css-loader": "^5.2.4",
@@ -38,6 +44,8 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "terser-webpack-plugin": "^5.1.1"
   }
 }
