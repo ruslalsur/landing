@@ -82,6 +82,10 @@ module.exports = {
           from: path.join(__dirname, 'src', 'assets', 'images'),
           to: path.join(__dirname, 'build', 'images'),
         },
+        {
+          from: path.join(__dirname, 'src', 'favicon.ico'),
+          to: path.join(__dirname, 'build', 'favicon.ico'),
+        },
       ],
     }),
   ],
