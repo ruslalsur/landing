@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "NODE_ENV=development webpack --mode development",
     "watch": "NODE_ENV=development webpack --mode development --watch",
-    "build": "NODE_ENV=production webpack --mode production",
+    "build": "NODE_ENV=production NODE_OPTIONS=--max_old_space_size=2048 webpack --mode production",
     "serve": "NODE_ENV=development webpack serve --mode development --open"
   },
   "repository": {

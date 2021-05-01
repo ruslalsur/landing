@@ -98,7 +98,7 @@ module.exports = {
     ],
   },
 
-  devtool: isDevMode ? 'eval-source-map' : '',
+  devtool: isDevMode ? 'eval-source-map' : undefined,
 
   devServer: {
     port: 3000,
