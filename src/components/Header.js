@@ -7,6 +7,7 @@ export const Header = () => {
         <div className='lable__title'>Сайты</div>
         <div className='lable__description'>
           Здесь будут располагаться результаты моих исследований в области
+          &nbsp;
           <span className='lable__description_accent'>веб-разработки</span>
         </div>
       </div>
