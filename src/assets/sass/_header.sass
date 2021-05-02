@@ -1,20 +1,18 @@
 .header
   height: $header-height
-  background: url('../assets/images/header-bg.webp') bottom right / cover no-repeat
+  background: url('../images/header-bg.webp') bottom right / cover no-repeat
   border-top-right-radius: 10px
   border-top-left-radius: 10px
   position: relative
-  @media (max-width: 800px)
-    height: $header-height - 90px
-  @media (max-width: 600px) 
-    height: $header-height - 150px
+  @media (max-width: $media-threshold) 
+    height: $header-height - 120px
 
 .lable
   position: absolute
   top: 30%
   left: 10%
   max-width: 39%
-  @media (max-width: 600px) 
+  @media (max-width: $media-threshold) 
     max-width: 40%
   &__title
     color: $header-title-color
@@ -22,7 +20,7 @@
     font-family: 'Ruslan Display'
     letter-spacing: 3px
     margin-bottom: 10px
-    @media (max-width: 600px)
+    @media (max-width: $media-threshold)
       font-size: 1.4rem
       font-family: 'Ruslan Display'
       letter-spacing: 2px
@@ -34,7 +32,7 @@
     font-size: 1.07rem
     letter-spacing: 2px
     line-height: 1.4
-    @media (max-width: 600px)     
+    @media (max-width: $media-threshold)     
       font-weight: 700
       font-size: 0.75rem
       letter-spacing: 1px
