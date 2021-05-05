@@ -3,11 +3,7 @@ import React from 'react'
 export const AppOne = ({ item }) => {
   return (
     <div className='app'>
-      <img
-        className='app__img'
-        src={'/images/' + item.img}
-        alt='Воспоминания'
-      />
+      <img className='app__img' src={'images/' + item.img} alt='Воспоминания' />
       <div className='app__title'>
         <span className='app__title_accent'>проект </span>
         {item.title}
