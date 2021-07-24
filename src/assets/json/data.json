@@ -30,5 +30,17 @@
     "img": "app-gbmoney.webp",
     "site": "http://gbmoney.ruslalsur.ru",
     "code": "https://github.com/ruslalsur/GBmoney"
+  },
+  {
+    "id": 4,
+    "title": "Kanban-board",
+    "desc": [
+      "Это реализация канбан-доски, которая была выполнена в рамках тестового проекта для одной из компаний в сжатые сроки в роли соискателя на вакансию frontend-разработчика.",
+      "В проекте используется фреймворк nextjs, chakra, react-beautiful-dnd.",
+      "Backend в проекте не реализован, было использовано api работодателя."
+    ],
+    "img": "app-canban_board.webp",
+    "site": "https://nekidaem-test.vercel.app/",
+    "code": "https://github.com/ruslalsur/nekidaem.test"
   }
 ]
